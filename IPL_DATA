@@ -1,0 +1,2 @@
+touch setup_project.sh
+chmod +x setup_project.sh
