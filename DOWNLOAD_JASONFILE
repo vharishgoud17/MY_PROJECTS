@@ -1,0 +1,6 @@
+#!/bin/bash
+curl -L -o ipl_json.zip https://cricsheet.org/downloads/ipl_json.zip
+unzip -o ipl_json.zip
+git add .
+git commit -m "Add IPL JSON data"
+git push origin main  # Use 'master' if your default branch is 'master'
